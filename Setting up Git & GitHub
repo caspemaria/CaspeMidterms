@@ -1,0 +1,28 @@
+Install Git:
+seach https://git-scm.com/, and download the latest version of your windows/mac/OS/Linux/
+Choose among the standalone installer (Git for Windows/x64 Setup or Git for Windows/ARM64 Setup). 
+To verify installation: Create new folder in the desktop (CaspeMidterms), right click- for windows (choose show more options). 
+If successfully installed, open Git Bash will be seen at the screen. If not, one way is to go directly to downloads and click Git to proceed. 
+Wait as the setup installs in the computer. Go back to the folder (CaspeMidterms), right click- then Open Git Bash is displayed, means that Git has been succesfuly installed in our device. 
+
+Install Github: 
+search GitHub.com
+sign up and log-in. Use personal/school purposes gmail account, edit username and appearance according to preference. 
+Synched GitHub account with Git and VScode 
+
+Commands/Operations
+At the right directory, within terminal (Git Bash)- enter and intialized 5 commands one at a time: 
+git config --global user.name "Your Name"
+git config --global user.email "you@youraddress.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+There will be a part, when to input another commands found under our GitHub repository, follow one at a time:
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/caspemaria/Explore.git
+git push -u origin main
+
+
